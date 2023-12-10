@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Check Out</title>
   </head>
   <body>
@@ -31,15 +37,30 @@
               <div class="form">
                 <div>
                   <label for="firstname">First Name</label>
-                  <input type="text" name="firstname" id="firstname" />
+                  <input
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    placeholder="Jane"
+                  />
                 </div>
                 <div>
                   <label for="lastname">Last Name</label>
-                  <input type="text" name="lastname" id="lastname" />
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    placeholder="Doe"
+                  />
                 </div>
                 <div>
                   <label for="email">Email</label>
-                  <input type="email" name="email" id="email" />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="janedoe@gmail.com"
+                  />
                 </div>
               </div>
             </div>
@@ -51,7 +72,13 @@
               <div class="form-div-lower">
                 <div>
                   <label for="credit-card">Credit Card</label>
-                  <input type="number" name="credit-card" id="credit-card" />
+                  <input
+                    type="number"
+                    name="credit-card"
+                    id="credit-card"
+                    placeholder="Card Number"
+                    
+                  />
                 </div>
               </div>
             </div>
@@ -71,7 +98,7 @@
         <section class="right">
           <h3>Freelancer</h3>
           <p class="billing">$<span class="bigger">99</span>/year</p>
-          <p>Automatically renews after 1 year</p>
+          <p class="auto">Automatically renews after 1 year</p>
           <div class="checks">
             <img src="/Combined Shape.png" alt="check" />
             <p>Use on 5 clients sites</p>
@@ -103,7 +130,9 @@
         </section>
       </section>
       <footer>
-        <p>© 2018 WP Pusher IVS · Terms of Service</p>
+        <p>
+          © 2018 WP Pusher IVS ·<span class="terms"> Terms of Service</span>
+        </p>
       </footer>
     </main>
   </body>

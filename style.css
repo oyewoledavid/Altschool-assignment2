@@ -58,6 +58,13 @@
 h2 {
   margin-top: 41px;
   margin-bottom: 62px;
+  color: #1d2c3c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .info {
   display: flex;
@@ -71,7 +78,6 @@ h2 {
     height: 30px;
     flex-shrink: 0;
     stroke-width: 2px;
-    /* stroke: #548bc5; */
     color: #548bc5;
     text-align: center;
     font-family: Lato;
@@ -120,9 +126,57 @@ input {
 #lastname {
   width: 226px;
 }
+
+::-webkit-input-placeholder {
+  color: #646e7a;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5px;
+}
+
+::-moz-placeholder {
+  color: #646e7a;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5px;
+}
+
+::-ms-placeholder {
+  color: #646e7a;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5px;
+}
+
+::placeholder {
+  color: #646e7a;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 input[type="email"] {
   width: 370px;
 }
+
 div {
   display: inline-block;
 }
@@ -170,7 +224,6 @@ button {
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
-    /* font-weight: 700; */
     line-height: normal;
     letter-spacing: -0.01px;
     width: 250px;
@@ -185,7 +238,11 @@ button {
 .right {
   border-radius: 0px 6px 6px 0px;
   background: #1179bf;
-  padding: 42px 46px 0 37px;
+
+  padding-top: 42px;
+  padding-right: 46px;
+  padding-bottom: 100px;
+  padding-left: 37px;
   max-width: 312px;
 
   > h3 {
@@ -198,7 +255,7 @@ button {
     letter-spacing: -0.01px;
     margin-bottom: 18px;
   }
-  /* > .billing {
+  > .billing {
     color: #fff;
     font-family: Lato;
     font-size: 24px;
@@ -206,21 +263,20 @@ button {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.015px;
-  } */
-  > .bigger {
-    color: #fff;
-    font-family: Lato;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    letter-spacing: -0.015px;
+
+    > .bigger {
+      color: #fff;
+      font-family: Lato;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: -0.015px;
+    }
   }
 
   > .checks {
     display: flex;
-    /* margin-right: 8px; */
-    /* margin-top: 30px; */
 
     > p {
       color: #fff;
@@ -260,7 +316,7 @@ button {
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px;
     letter-spacing: -0.009px;
     margin-top: 43px;
   }
@@ -284,4 +340,39 @@ button {
       letter-spacing: -0.008px;
     }
   }
+  > .auto {
+    color: #fff;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.008px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 100px;
+  color: #636b6f;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.terms {
+  color: #31708f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
