@@ -239,6 +239,10 @@ button {
   justify-content: center;
   align-content: center;
   margin-top: 1.75em;
+  > img {
+    width: 5.75em;
+    height: 1.256em;
+  }
 }
 
 .right {
@@ -322,6 +326,11 @@ button {
       width: 11.875em;
       margin-top: 2.375em;
     }
+    .switch{
+      text-decoration: underline;
+      text-decoration-thickness: 4px;
+      text-decoration-color: #B9F5FF;
+    }
   }
   > .quote {
     color: #fff;
@@ -341,6 +350,8 @@ button {
     margin-top: 1.063em;
 
     > img {
+      height: 2.5em;
+      width: 2.5em;
       border-radius: 50%;
     }
     > p {
