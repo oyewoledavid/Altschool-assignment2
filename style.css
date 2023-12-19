@@ -6,7 +6,7 @@
 #main {
   padding: 1.75em 2.5em 0 2.5em;
   height: 100vh;
-  max-width: auto;
+  /* max-width: auto; */
 }
 #header {
   display: flex;
@@ -60,6 +60,7 @@
     0px 15px 35px 0px rgba(43, 64, 78, 0.1);
   display: flex;
   padding-left: 3em;
+  gap: 3em;
   /* width: auto; */
 }
 
@@ -127,10 +128,10 @@ input {
 }
 #firstname {
   margin-right: 1.875em;
-  width: 14.188em;
+  width: 18.78em;
 }
 #lastname {
-  width: 14.125em;
+  width: 18.78em;
 }
 
 ::-webkit-input-placeholder {
@@ -180,7 +181,7 @@ input::-webkit-inner-spin-button {
 }
 
 input[type="email"] {
-  width: 23.125em;
+  width: 26.125em;
 }
 
 div {
@@ -199,7 +200,7 @@ div {
 }
 #credit-card {
   display: block;
-  width: 30.188em;
+  width: 40.5em;
 }
 button {
   width: 30.188em;
